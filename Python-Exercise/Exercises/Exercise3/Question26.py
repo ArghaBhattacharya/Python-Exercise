@@ -1,0 +1,5 @@
+num_tuple = (5, 8, 13, 2, 17, 1)
+new_list=list(num_tuple)
+new_list.remove(max(new_list))
+new_list.sort()
+print(new_list)
